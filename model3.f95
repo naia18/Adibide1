@@ -1,9 +1,7 @@
 subroutine model3(P_n, I_n, denbora, p1, p2, N, d, M)
 ! =====================================================
-! This applies the Dealer model 1 for loop
-! till all the N = 5000 transactions are achieved.
-! A subroutine is used preferred to a function because
-! two outputs are attended.
+! B Eredurako sortutako subrutina
+! Azken aldaketa: Naia Ormaza Zulueta 05/2020
 ! =====================================================
     integer, intent(in)   :: N, M
     real, intent(in)      :: d
